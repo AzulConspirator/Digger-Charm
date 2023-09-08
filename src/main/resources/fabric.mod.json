@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "diggercharm",
+  "version": "${version}",
+
+  "name": "Digger Charm",
+  "icon": "assets/shulkercharm/icon.png",
+  "description": "3x3 Mining Trinket",
+  "license": "MIT",
+  "contact": {
+    "sources": ""
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.azulc.diggercharm.DiggerCharm"
+    ]
+  },
+  "mixins": [
+    "mixins.diggercharm.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.x",
+    "trinkets": ">=3.7.0",
+    "cloth-config2": ">=11.0.99",
+    "playerabilitylib": ">=1.8.0"
+  }
+}

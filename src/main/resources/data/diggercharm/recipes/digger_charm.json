@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "FEF",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "F": {
+      "item": "minecraft:stone"
+    },
+    "E": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "diggercharm:digger_charm",
+    "count": 1
+  }
+}

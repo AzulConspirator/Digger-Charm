@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "dev.azulc.diggercharm.mixin",
+  "mixins": [
+    "MixinBeaconBlockEntity"
+  ],
+  "client": [
+  ]
+}
